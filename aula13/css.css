@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+body{ 
+    background-color: rgb(75, 74, 74);
+}
+
+.topo{ 
+    margin-top: 200px;
+    font-family: "Cal Sans", sans-serif;
+    background-color: aqua;
+    transition: 0.5s;
+    border-radius: 100px;
+    text-align: center;
+}
+.topo:hover{ 
+    background-color: rgb(45, 170, 170);
+    transform: translateY(-10px);
+}
+.topo2{ 
+    font-family: "Cal Sans", sans-serif;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+    border-radius: 100px;
+    text-align: center;
+}
+.topo2:hover{ 
+    background-color: rgb(255, 103, 103);
+    transform: translateY(-10px);
+}
+.topo3{ 
+    font-family: "Cal Sans", sans-serif;
+    background-color: rgb(255, 196, 0);
+    transition: 0.5s;
+    border-radius: 100px;
+    text-align: center;
+}
+.topo3:hover{ 
+    background-color:rgb(196, 153, 13) ;
+    transform: translateY(-10px);
+}
+footer { 
+    padding-top: 10px;
+height: 100px;
+    background-color:rgb(96, 11, 107) ;
+    color: rgb(206, 159, 250);
+    transition: 0.5s;
+    border-radius: 100px;
+    text-align: center;
+}
